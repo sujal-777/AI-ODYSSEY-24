@@ -5,7 +5,7 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import React, { useState, useEffect } from "react";
-// import { useCountdown } from "../hooks/useCountdown";
+// import { useCountdown } from "../../useCountdown";
 
 export const EVENT_STARTING_DATETIME = "2024-04-05 10:00:00 AM";
 
@@ -33,7 +33,12 @@ const Benefits = () => {
 									{item.text}
 								</p>
 								<div className="flex items-center mt-auto">
-									
+									<img
+										src={item.iconUrl}
+										width={48}
+										height={48}
+										alt={item.title}
+									/>
 									<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
 										Explore more
 									</p>
