@@ -39,9 +39,16 @@ import {
 	networkicon,
 	gameicon,
 	cislogo,
-	coelogo,
 	jarvislogo,
+	GDGClogo,
+	GHRCE,
+	RGi,
+	coelogo,
+	speaker,
+	
 } from "../assets";
+
+
 
 export const navigation = [
 	{
@@ -56,7 +63,7 @@ export const navigation = [
 	},
 	{
 		id: "2",
-		title: "GLIMPSSES",
+		title: "GLIMPSES",
 		url: "#how-to-use",
 	},
 	{
@@ -76,7 +83,9 @@ export const heroIcons = [gameicon, chaticon, micicon, networkicon];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [cislogo, coelogo, jarvislogo];
+export const companyLogos = [cislogo, coelogo,GHRCE,RGi,GDGClogo, jarvislogo];
+
+
 
 export const brainwaveServices = [
 	"Photo generating",
@@ -128,26 +137,25 @@ export const roadmap = [
 	},
 ];
 
-export const collabText =
-	"With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export let collabText =
+	"G. H. Raisoni College of Engineering has successfully organised Four exhilarating editions of AI Summit. Now, we are elated to announce the 5th Edition as AI Odyssey'24 , a blend of AI and games. AI plays a vital role in our lives and when fused with games there is no better way to learn it.";
 
-export const collabContent = [
+export let collabContent = [
 	{
 		id: "0",
-		title: "Seamless Integration",
-		text: collabText,
+		title: "AI Odyssey is going to be held on April 5 and April 6, 2023",
 	},
 	{
 		id: "1",
-		title: "Smart Automation",
+		title: "It is central India biggest AI-Summit Tech Event",
 	},
 	{
 		id: "2",
-		title: "Top-notch Security",
+		title: "The event is open to students, professionals, and enthusiasts from various fields such as engineering, computer science, game development, and others.",
 	},
 ];
 
-export const collabApps = [
+export let collabApps = [
 	{
 		id: "0",
 		title: "Figma",
@@ -206,39 +214,41 @@ export const collabApps = [
 	},
 ];
 
+
+
+
+
 export const pricing = [
 	{
 		id: "0",
-		title: "Basic",
-		description: "AI chatbot, personalized recommendations",
-		price: "0",
+		title: "Speaker Name",
+		imageUrl : speaker,
+	
 		features: [
-			"An AI chatbot that can understand your queries",
-			"Personalized recommendations based on your preferences",
-			"Ability to explore the app and its features without any cost",
+			"WOrked on @XYZ company, ex@zyx company , tedY speaker",
+			"Eperiences",
+			"Location or something",
 		],
 	},
 	{
 		id: "1",
-		title: "Premium",
-		description:
-			"Advanced AI chatbot, priority support, analytics dashboard",
-		price: "9.99",
+		title: "Speaker Name",
+		imageUrl : speaker,
 		features: [
-			"An advanced AI chatbot that can understand complex queries",
-			"An analytics dashboard to track your conversations",
-			"Priority support to solve issues quickly",
+			"WOrked on @XYZ company, ex@zyx company , tedY speaker",
+			"Eperiences",
+			"Location or something like linkedin top voice ",
 		],
 	},
 	{
 		id: "2",
-		title: "Enterprise",
-		description: "Custom AI chatbot, advanced analytics, dedicated account",
-		price: null,
+		title: "Speaker Name",
+		imageUrl : speaker,
+		
 		features: [
-			"An AI chatbot that can understand your queries",
-			"Personalized recommendations based on your preferences",
-			"Ability to explore the app and its features without any cost",
+			"WOrked on @XYZ company, ex@zyx company , tedY speaker",
+			"Eperiences",
+			"Location or something",
 		],
 	},
 ];

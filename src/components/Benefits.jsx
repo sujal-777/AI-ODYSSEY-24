@@ -4,6 +4,10 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import React, { useState, useEffect } from "react";
+// import { useCountdown } from "../hooks/useCountdown";
+
+export const EVENT_STARTING_DATETIME = "2024-04-05 10:00:00 AM";
 
 const Benefits = () => {
 	return (
@@ -11,7 +15,7 @@ const Benefits = () => {
 			<div className="container relative z-2">
 				<Heading
 					className="md:max-w-md lg:max-w-2xl"
-					title="Challenge the Boundaries, Master AI Innovation"
+					// title="Challenge the Boundaries, Master AI Innovation"
 				/>
 
 				<div className="flex flex-wrap gap-10 mb-10">
@@ -29,12 +33,7 @@ const Benefits = () => {
 									{item.text}
 								</p>
 								<div className="flex items-center mt-auto">
-									<img
-										src={item.iconUrl}
-										width={48}
-										height={48}
-										alt={item.title}
-									/>
+									
 									<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
 										Explore more
 									</p>
