@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
+import CountdownTimer from "./components/Timer";
 // import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
 // import useCountdown from "./components/useCountdown";
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Hero />
         <Collaboration />
+        <CountdownTimer />
         <Benefits />
         <Services />
         <Pricing />

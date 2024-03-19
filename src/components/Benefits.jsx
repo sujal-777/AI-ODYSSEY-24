@@ -12,10 +12,10 @@ export const EVENT_STARTING_DATETIME = "2024-04-05 10:00:00 AM";
 const Benefits = () => {
 	return (
 		<Section id="features">
-			<div className="container relative z-2">
+			<div className="container relative z-2  my-20">
 				<Heading
 					className="md:max-w-md lg:max-w-2xl"
-					// title="Challenge the Boundaries, Master AI Innovation"
+					title="Games and Activities"
 				/>
 
 				<div className="flex flex-wrap gap-10 mb-10">
@@ -28,6 +28,12 @@ const Benefits = () => {
 							key={item.id}
 						>
 							<div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+								<img
+									src={item.imageUrl}
+									width={50}
+									height={50}
+									alt={item.title}
+									className="w-full h-full object-cover rounded-lg my-4" />
 								<h5 className="h5 mb-5">{item.title}</h5>
 								<p className="body-2 mb-6 text-n-3">
 									{item.text}
