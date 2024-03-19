@@ -42,7 +42,7 @@ const Hero = () => {
 					<p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
 						Games | Panel Discussion | Power Talks| Networking
 					</p>
-					<Button href="/pricing" white>
+					<Button href="https://tally.so/r/mBXEe4" white>
 						Register Now
 					</Button>
 				</div>

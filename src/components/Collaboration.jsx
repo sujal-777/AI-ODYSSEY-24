@@ -33,7 +33,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Register Now</Button>
+          <Button href="https://tally.so/r/mBXEe4">Register Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

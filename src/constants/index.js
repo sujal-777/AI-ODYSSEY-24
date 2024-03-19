@@ -24,10 +24,10 @@ import {
 	raindrop,
 	recording01,
 	recording03,
-	roadmap1,
-	roadmap2,
-	roadmap3,
-	roadmap4,
+	// roadmap1,
+	// roadmap2,
+	// roadmap3,
+	// roadmap4,
 	searchMd,
 	slack,
 	sliders04,
@@ -66,11 +66,11 @@ export const navigation = [
 		title: "GLIMPSES",
 		url: "#how-to-use",
 	},
-	{
-		id: "3",
-		title: "ROADMAP",
-		url: "#roadmap",
-	},
+	// {
+	// 	id: "3",
+	// 	title: "ROADMAP",
+	// 	url: "#roadmap",
+	// },
 	{
 		id: "4",
 		title: "Register",
@@ -101,41 +101,41 @@ export const brainwaveServicesIcons = [
 	sliders04,
 ];
 
-export const roadmap = [
-	{
-		id: "0",
-		title: "Voice recognition",
-		text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-		date: "May 2023",
-		status: "done",
-		imageUrl: roadmap1,
-		colorful: true,
-	},
-	{
-		id: "1",
-		title: "Gamification",
-		text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-		date: "May 2023",
-		status: "progress",
-		imageUrl: roadmap2,
-	},
-	{
-		id: "2",
-		title: "Chatbot customization",
-		text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-		date: "May 2023",
-		status: "done",
-		imageUrl: roadmap3,
-	},
-	{
-		id: "3",
-		title: "Integration with APIs",
-		text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-		date: "May 2023",
-		status: "progress",
-		imageUrl: roadmap4,
-	},
-];
+// export const roadmap = [
+// 	{
+// 		id: "0",
+// 		title: "Voice recognition",
+// 		text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+// 		date: "May 2023",
+// 		status: "done",
+// 		imageUrl: roadmap1,
+// 		colorful: true,
+// 	},
+// 	{
+// 		id: "1",
+// 		title: "Gamification",
+// 		text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+// 		date: "May 2023",
+// 		status: "progress",
+// 		imageUrl: roadmap2,
+// 	},
+// 	{
+// 		id: "2",
+// 		title: "Chatbot customization",
+// 		text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+// 		date: "May 2023",
+// 		status: "done",
+// 		imageUrl: roadmap3,
+// 	},
+// 	{
+// 		id: "3",
+// 		title: "Integration with APIs",
+// 		text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+// 		date: "May 2023",
+// 		status: "progress",
+// 		imageUrl: roadmap4,
+// 	},
+// ];
 
 export let collabText =
 	"G. H. Raisoni College of Engineering has successfully organised Four exhilarating editions of AI Summit. Now, we are elated to announce the 5th Edition as AI Odyssey'24 , a blend of AI and games. AI plays a vital role in our lives and when fused with games there is no better way to learn it.";
@@ -221,7 +221,7 @@ export let collabApps = [
 export const pricing = [
 	{
 		id: "0",
-		title: "Speaker Name",
+		title: "Revealing soon",
 		imageUrl : speaker,
 	
 		features: [
@@ -232,7 +232,7 @@ export const pricing = [
 	},
 	{
 		id: "1",
-		title: "Speaker Name",
+		title: "Revealing soon",
 		imageUrl : speaker,
 		features: [
 			"WOrked on @XYZ company, ex@zyx company , tedY speaker",
@@ -242,7 +242,7 @@ export const pricing = [
 	},
 	{
 		id: "2",
-		title: "Speaker Name",
+		title: "Revealing Soon",
 		imageUrl : speaker,
 		
 		features: [

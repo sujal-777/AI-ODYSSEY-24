@@ -72,7 +72,7 @@ const Header = () => {
 					<HamburgerMenu />
 				</nav>
 
-				<Button className="hidden lg:flex" href="#register">
+				<Button className="hidden lg:flex" href="https://tally.so/r/mBXEe4">
 					Register
 				</Button>
 
