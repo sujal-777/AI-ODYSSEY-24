@@ -10,7 +10,10 @@ import CountdownTimer from "./components/Timer";
 import Services from "./components/Services";
 // import useCountdown from "./components/useCountdown";
 // import useCountdown from "./components/useCountdown";
+import EventRoadmap from "./components/EventRoadmap";
+import Events from "./components/events";
 const App = () => {
+
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
@@ -19,6 +22,9 @@ const App = () => {
         <Collaboration />
         <CountdownTimer />
         <Benefits />
+        {/* <EventRoadmap /> */}
+        
+        <Events />
         <Services />
         <Pricing />
         {/* <Roadmap /> */}

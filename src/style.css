@@ -3,3 +3,10 @@
   font-size: 70px;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff;
 }
+
+/* media query for mobile */
+@media (max-width: 768px) {
+  .neon {
+    font-size: 40px;
+  }
+}
