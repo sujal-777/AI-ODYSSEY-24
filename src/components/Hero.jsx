@@ -18,15 +18,18 @@ const Hero = () => {
 
 	return (
 		<Section
-			className="pt-[12rem] -mt-[5.25rem]"
-			crosses
-			crossesOffset="lg:translate-y-[5.25rem]"
-			customPaddings
-			id="hero"
+		className="pt-[12rem] -mt-[5.25rem]"
+		crosses
+		crossesOffset="lg:translate-y-[5.25rem]"
+		customPaddings
+		id="hero"
 		>
 			<div className="container relative" ref={parallaxRef}>
-				<div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-					<h1 className="h1 mb-6">
+				<div className="relative z-1 max-w-[64rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+
+			
+					<h1 className="h1 mb-6
+					">
 						AI{" "}
 						<span className="inline-block relative">
 							Odyssey{" "}
@@ -40,7 +43,7 @@ const Hero = () => {
 						</span>
 					</h1>
 					<p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-						Games | Panel Discussion | Power Talks| Networking
+						Games | Panel Discussion | Ideathon | Power Talks | Networking
 					</p>
 					<Button href="https://tally.so/r/mBXEe4" white>
 						Register Now

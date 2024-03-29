@@ -9,81 +9,68 @@ const Timeline_Day2 = () => {
                 <ul className="timeline">
                     <li
                         className="event"
-                        data-date="10:00 AM - 11:00 AM"
-                        // data-aos="fade-left"
-                        data-aos="fade-up"
-                    >
-                        <h3>Career Roadmap</h3>
-                        <p>
-                            If you feel you are on a wobbly journey for your
-                            career join us at Career Roadmap and get yourself a
-                            clear vision for your better future.
-                        </p>
-                    </li>
-                    <li
-                        className="event"
-                        data-date="11:00 AM - 12:30 PM"
-                        // data-aos="fade-left"
-                        data-aos="fade-up"
-                    >
-                        <h3>AI Wizard and Mindscape Preliminary</h3>
-                        <p>
-                            All the knowledge and passion for AI has found its
-                            junction here at AI Wizard and the Mindscape
-                            Preliminary Round. Both the games will challenge
-                            your skills in AI to find the best AI enthusiast of
-                            all.
-                        </p>
-                    </li>
-                    <li
-                        className="event"
-                        data-date="1:00 PM - 2:00 PM"
-                        // data-aos="fade-left"
-                        data-aos="fade-up"
-                    >
-                        <h3>Lunch</h3>
-                        <p>
-                            Take a break during lunchtime to relax and
-                            rejuvenate before returning to your activities.
-                        </p>
-                    </li>
-                    <li
-                        className="event"
-                        data-date="02:00 PM - 3:30 PM"
+                        data-date="10:00 AM - 11:20 AM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
                         <h3>Panel Discussion</h3>
                         <p>
-                            The Panel Discussion would involve a group of
-                            experts exchanging their insights and views on the
-                            growth of AI with the audiences.
+                        Get ready for an exhilarating Panel Discussion where a powerhouse of experts will dazzle you with their insights and perspectives on the groundbreaking evolution of AI!
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="3:30 PM - 5:00 PM"
+                        data-date="11:30 AM - 12:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Ai wizard and Mindscape finals</h3>
+                        <h3>Catch the Web and Strategic Stack</h3>
                         <p>
-                            After showcasing their proficiency in the qualifying
-                            rounds, the teams will face the Finals where one of
-                            the teams will become the ultimate AI know-it-all.
+                        Experience Catch the Web: Hunt, Hint, and Win! at AI Odyssey’24, unraveling clues in a heart-pounding online race. Then, dive into Strategic Stack, strategically investing to conquer the financial arena and emerge victorious!
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="5:00 PM - 5:30 PM"
+                        data-date="12:30 PM - 1:15 PM"
+                        // data-aos="fade-left"
+                        data-aos="fade-up"
+                    >
+                        <h3>Lunch</h3>
+                        <p>
+                        Break for lunchtime to unwind and recharge your energy before resuming your activities refreshed and revitalized.
+                        </p>
+                    </li>
+                    <li
+                        className="event"
+                        data-date="01:15 PM - 2:30 PM"
+                        // data-aos="fade-left"
+                        data-aos="fade-up"
+                    >
+                        <h3>Find the Glitch and TechnoTales</h3>
+                        <p>
+                        Step into the adventure of "TechnoTales," where stories become coding challenges. Then, become a digital detective in "Find the Glitch," racing against time to fix buggy code and conquer challenges, sharpening your skills.
+                        </p>
+                    </li>
+                    <li
+                        className="event"
+                        data-date="2:30 PM - 4:30 PM"
+                        // data-aos="fade-left"
+                        data-aos="fade-up"
+                    >
+                        <h3>Mini Shark Tank and Artsy Voyage </h3>
+                        <p>
+                        Immerse yourself in 'ARTSY VOYAGE,' blending storytelling with AI creativity, then dive into the thrilling challenge of MINI SHARK TANK, testing your wits against business titans in a battle of innovation and quick thinking!
+                        </p>
+                    </li>
+                    <li
+                        className="event"
+                        data-date="4:30 PM - 5:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
                         <h3>Valedictory</h3>
                         <p>
-                            All the winners and runner ups will be felicitated
-                            with prizes and more for their amazing performances
-                            at AI Odyssey
+                        All top performers at AI Odyssey will be honored with prizes and additional recognition for their outstanding achievements.
                         </p>
                     </li>
                 </ul>

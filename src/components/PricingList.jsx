@@ -19,7 +19,7 @@ const PricingList = () => {
                 width={50}
                 height={50}
                 alt={item.title}
-                className="w-full h-full object-cover rounded-lg my-4" />
+                className="w-full h-full object-cover rounded-mg my-4" />
             )}
           </div>
 

@@ -14,9 +14,7 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Inauguration</h3>
                         <p>
-                            Commencement of event by lightning the lamp,
-                            followed by the welcoming of the judges and
-                            sponsors.
+                        The event kicks off with the ceremonial lighting of the lamp, followed by extending a warm welcome to our esteemed judges and sponsors.
                         </p>
                     </li>
                     <li
@@ -26,53 +24,45 @@ const Timeline_Day1 = () => {
                     >
                         <h3>Keynote</h3>
                         <p>
-                            Attend our keynote session to gain a clear
-                            understanding of AI technologies and explore
-                            inquisitive topics.
+                        Join us for our keynote session to delve into AI technologies and explore intriguing topics that spark curiosity.
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="11:30 AM - 12:30 PM"
+                        data-date="11:30 AM - 1:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Scan & Hunt and The Smart Playoffs</h3>
+                        <h3>Pixel Puzzle and Scan & Hunt</h3>
                         <p>
-                            Prepare yourself for Scan & Hunt and The Smart
-                            Playoffs. Both the games vary each other as well as
-                            complete each other. We got you covered from
-                            problem-solving to skill building.
+                        Experience the visually engaging 'Pixel Puzzle,' finding objects with algorithms, then dive into the adrenaline-fueled 'Scan & Hunt,' racing to capture hidden QR codes within a time limit, testing your skills to the max!
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="1:15 PM - 2:00 PM"
+                        data-date="1:30 PM - 2:15 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
                         <h3>Lunch</h3>
                         <p>
-                            Take a break during lunchtime to relax and
-                            rejuvenate before returning to your activities.
+                        Break for lunchtime to unwind and recharge your energy before resuming your activities refreshed and revitalized.
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="2:00 PM - 4:00 PM"
+                        data-date="2:15 PM - 3:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Workshop</h3>
+                        <h3>Ideathon and Imaginate AI</h3>
                         <p>
-                            Be prepared to dive deep into the oceans of
-                            knowledge imparted by the mentors in our workshop
-                            session to gain the most of AI.
+                        Ideathon is a competition where contestants submit their ideas to judges; in Imaginate AI, pairs use AI to create images, which ignites a creative frenzy.
                         </p>
                     </li>
                     <li
                         className="event"
-                        data-date="4:00 PM - 4:15 PM"
+                        data-date="3:30 PM - 3:45 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
@@ -81,16 +71,13 @@ const Timeline_Day1 = () => {
                     </li>
                     <li
                         className="event"
-                        data-date="4:15 PM - 5:30 PM"
+                        data-date="3:45 PM - 5:30 PM"
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Go Algo and Innovation Junction</h3>
+                        <h3>Ideathon and DataVerse</h3>
                         <p>
-                            Get ready for GoAlgo and Innovation Junction. A
-                            junction of games where one will challenge your
-                            programming skills whilst the other challenges your
-                            innovative skills.
+                        Prepare to let your creativity run wild in Ideathon and show off your data wizardry in Dataverse, where excitement and discovery abound every minute!
                         </p>
                     </li>
                 </ul>

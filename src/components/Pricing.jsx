@@ -4,7 +4,8 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 import React from "react";
-import "./design/Pricing"
+import "./design/Pricing";
+import Button from "./Button";
 
 const Pricing = () => {
   return (
@@ -49,6 +50,14 @@ const Pricing = () => {
             EXPLORE FOR MORE DETAILS
           </a>
         </div>
+
+        <div className = "flex justify-center mt-10">
+          <Button className= "w-1/2">
+            Leaderboard
+          </Button>
+        </div>
+
+      
       </div>
     </Section>
   );
