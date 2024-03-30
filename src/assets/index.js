@@ -25,13 +25,6 @@ import searchMd from "./search-md.svg";
 import sliders04 from "./sliders-04.svg";
 import yourlogo from "./yourlogo.svg";
 
-//games
-import dataverse from "./games/dataverse.jpg";
-import findthegltich from "./games/findtheglitch.jpg";
-import imaginateai from "./games/imaginateai.jpg";
-import scannhunt from "./games/scannhunt.jpg";
-import technotiles from "./games/technotiles.jpg";
-
 import curve from "./hero/curve.png";
 import heroBackground from "./hero/hero-background.jpg";
 import robot from "./hero/robot.jpg";
@@ -97,35 +90,110 @@ import speaker from "./speaker.png";
 import MLngp from "./MLngp.png";
 import DevArmy from "./DevArmy.png";
 
+//games
+import dataverse from "./games/dataverse.jpg";
+import findthegltich from "./games/findtheglitch.jpg";
+import imaginateai from "./games/imaginateai.jpg";
+import scannhunt from "./games/scannhunt.jpg";
+import technotiles from "./games/technotiles.jpg";
+import ideathon from "./games/ideathon.png";     
+import minisharktank from "./games/minisharktank.png";     
+import pixelpuzzle from "./games/pixelpuzzle.png";     
+import av from "./games/av.png";     
+import ss from "./games/ss.png";     
+import catchtheweb from "./games/catchtheweb.png";     
 
 export {
-	GDGClogo,
-	GHRCE, RGi, background, benefitCard1,
-	benefitCard2,
-	benefitCard3,
-	benefitCard4,
-	benefitCard5,
-	benefitCard6,
-	benefitIcon1,
-	benefitIcon2,
-	benefitIcon3,
-	benefitIcon4,
-	benefitImage2, brainwave, brainwaveSymbol,
-	brainwaveWhiteSymbol, chaticon, check,
-	check2, chromecast, cislogo,
-	coelogo, coins, curve, curve1,
-	curve2, dataverse, disc02, discord, discordBlack, done, facebook, figma, file02, findthegltich, framer, gameicon, gradient, grid, hero, heroBackground, homeSmile, imaginateai, instagram, jarvislogo, lines, loading, loading1, micicon,
-	networkicon, notification1,
-	notification2,
-	notification3, notification4, notion,
-	photoshop, play, plusSquare, protopie,
-	raindrop, recording01, recording03, roadmap1,
-	roadmap2,
-	roadmap3,
-	roadmap4, robot, scannhunt, searchMd, service1,
-	service2,
-	service3, slack, sliders04, smallSphere, speaker, stars, technotiles, telegram,
-	twitter, undone, yourlogo,
-	MLngp,DevArmy
+  catchtheweb,
+  ss,
+  av,
+  pixelpuzzle,
+  minisharktank,
+  ideathon,
+  GDGClogo,
+  GHRCE,
+  RGi,
+  background,
+  benefitCard1,
+  benefitCard2,
+  benefitCard3,
+  benefitCard4,
+  benefitCard5,
+  benefitCard6,
+  benefitIcon1,
+  benefitIcon2,
+  benefitIcon3,
+  benefitIcon4,
+  benefitImage2,
+  brainwave,
+  brainwaveSymbol,
+  brainwaveWhiteSymbol,
+  chaticon,
+  check,
+  check2,
+  chromecast,
+  cislogo,
+  coelogo,
+  coins,
+  curve,
+  curve1,
+  curve2,
+  dataverse,
+  disc02,
+  discord,
+  discordBlack,
+  done,
+  facebook,
+  figma,
+  file02,
+  findthegltich,
+  framer,
+  gameicon,
+  gradient,
+  grid,
+  hero,
+  heroBackground,
+  homeSmile,
+  imaginateai,
+  instagram,
+  jarvislogo,
+  lines,
+  loading,
+  loading1,
+  micicon,
+  networkicon,
+  notification1,
+  notification2,
+  notification3,
+  notification4,
+  notion,
+  photoshop,
+  play,
+  plusSquare,
+  protopie,
+  raindrop,
+  recording01,
+  recording03,
+  roadmap1,
+  roadmap2,
+  roadmap3,
+  roadmap4,
+  robot,
+  scannhunt,
+  searchMd,
+  service1,
+  service2,
+  service3,
+  slack,
+  sliders04,
+  smallSphere,
+  speaker,
+  stars,
+  technotiles,
+  telegram,
+  twitter,
+  undone,
+  yourlogo,
+  MLngp,
+  DevArmy,
 };
-
