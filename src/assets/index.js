@@ -94,6 +94,8 @@ import cislogo from "./cislogo.png";
 import coelogo from "./coelogo.png";
 import jarvislogo from "./jarvislogo.png";
 import speaker from "./speaker.png";
+import MLngp from "./MLngp.png";
+import DevArmy from "./DevArmy.png";
 
 
 export {
@@ -123,6 +125,7 @@ export {
 	roadmap4, robot, scannhunt, searchMd, service1,
 	service2,
 	service3, slack, sliders04, smallSphere, speaker, stars, technotiles, telegram,
-	twitter, undone, yourlogo
+	twitter, undone, yourlogo,
+	MLngp,DevArmy
 };
 

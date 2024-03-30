@@ -8,6 +8,7 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+// import Communitypartner from "./Communitypartner";
 
 const styles = {
 	fontFamily: "OriginTech, sans-serif", // Apply OriginTech font with fallback to sans-serif
@@ -105,6 +106,7 @@ const Hero = () => {
 				</div>
 
 				<CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+				{/* <Communitypartner className= "hidden relative z-10 mt-20 lg:block" /> */}
 			</div>
 
 			<BottomLine />

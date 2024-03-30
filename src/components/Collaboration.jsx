@@ -95,38 +95,56 @@ const Collaboration = () => {
 
       <div className="container lg:flex">
         <div className="max-w-full">
-          <h6 className="h2 mb-4 mt-16 md:mb-8">
+          <h6 className="h4 mb-4 mt-16 md:mb-8">
             AI Department
           </h6>
-          <p className="body-2 mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
             {Aidept}
           </p>
-
+          <LeftCurve/>
       </div>
+      <div>
+        <img src="" alt="" />
+      </div>
+    
+      <RightCurve/>
+
+
       </div>
 
       <div className="container lg:flex">
         <div className="max-w-full">
-          <h6 className="h2 mb-4 mt-16 md:mb-8">
+          <h6 className="h4 mb-4 mt-16 md:mb-8">
             Centre of Excellence(AIML) 
           </h6>
-          <p className="body-2 mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
             {CoE}
           </p>
+          <LeftCurve/>
+      <div>
+        <img src="" alt="" />
+      </div>
+          <RightCurve/>
 
       </div>
       </div>
 
       <div className="container lg:flex">
         <div className="max-w-full">
-          <h6 className="h2 mb-4 mt-16 md:mb-8">
+          <h6 className="h4 mb-4 mt-16 md:mb-8">
             IEEE CIS SBC 
           </h6>
-          <p className="body-2 mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
             {CIS}
           </p>
-
+          <LeftCurve/>
       </div>
+      <div>
+        <img src="" alt="" />
+      </div>
+
+          <RightCurve/>
+
       </div>
 
     </Section>

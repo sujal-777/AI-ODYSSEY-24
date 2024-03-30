@@ -40,7 +40,9 @@ import {
   speaker,
   technotiles,
   telegram,
-  twitter
+  twitter,
+  MLngp,
+  DevArmy
 } from "../assets";
 
 export const navigation = [
@@ -84,6 +86,11 @@ export const companyLogos = [
   GDGClogo,
   jarvislogo,
 ];
+
+export const Communitypartner = [
+  MLngp,
+  DevArmy
+]
 
 export const brainwaveServices = [
   "Photo generating",
