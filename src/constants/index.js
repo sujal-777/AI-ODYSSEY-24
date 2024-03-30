@@ -42,7 +42,13 @@ import {
   telegram,
   twitter,
   MLngp,
-  DevArmy
+  DevArmy,
+  av,
+  pixelpuzzle,
+  minisharktank,
+  ideathon,
+  ss,
+  catchtheweb,
 } from "../assets";
 
 export const navigation = [
@@ -61,7 +67,7 @@ export const navigation = [
     title: "GLIMPSES",
     url: "#how-to-use",
   },
-  // 
+  //
   // 	id: "3",
   // 	title: "ROADMAP",
   // 	url: "#roadmap",
@@ -87,10 +93,7 @@ export const companyLogos = [
   jarvislogo,
 ];
 
-export const Communitypartner = [
-  MLngp,
-  DevArmy
-]
+export const Communitypartner = [MLngp, DevArmy];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -105,7 +108,6 @@ export const brainwaveServicesIcons = [
   chromecast,
   sliders04,
 ];
-
 
 export let collabText =
   "We are excited to announce the upcoming AI Odyssey'24 event, it is a beacon of innovation, delivering a captivating blend of technological games and enlightening panel discussions. It is a blend of AI and games. AI plays a vital role in our lives and when fused with games there is no better way to learn it. AI Odyssey goes above and beyond the typical event experience, offering a platform where imagination, excitement, and creativity converge to shape the future of technology.";
@@ -186,13 +188,14 @@ export let collabApps = [
   },
 ];
 
-export const Aidept = "Established in 2019, G. H. Raisoni College of Engineering's Department of Artificial Intelligence, under the leadership of Dr. Mangala Madankar, stands as a guiding light of progressive education. With a focus on machine learning and innovative technologies, students are empowered to tackle real-world problems through a comprehensive curriculum. The department's dedication to excellence is evident in the achievements of its students, who have garnered recognition in national and international hackathons. This success underscores the department commitment to nurturing talent and fostering a culture of innovation. Graduates emerge from the program well-prepared to contribute meaningfully to the evolving field of artificial intelligence.";
+export const Aidept =
+  "Established in 2019, G. H. Raisoni College of Engineering's Department of Artificial Intelligence, under the leadership of Dr. Mangala Madankar, stands as a guiding light of progressive education. With a focus on machine learning and innovative technologies, students are empowered to tackle real-world problems through a comprehensive curriculum. The department's dedication to excellence is evident in the achievements of its students, who have garnered recognition in national and international hackathons. This success underscores the department commitment to nurturing talent and fostering a culture of innovation. Graduates emerge from the program well-prepared to contribute meaningfully to the evolving field of artificial intelligence.";
 
-export const CoE = "The Center of Excellence (CoE) at GHRCE, Nagpur, is an organizational entity within an institution or company that is dedicated to achieving excellence in a specific area or domain. It serves as a centralized hub for implementing best practices, conducting research, providing training, and fostering innovation within that particular field or discipline. CoE aims at “Concentrating existing expertise and resources in a discipline to attain and sustain world-class performance and value”. The CoE in AIML stands out with its industry-connected live projects mentored by experts from IIT, IIIT, and NIT for the projects international collaborations for research, and engagements with hospitals to solve medical challenges using AI.";
+export const CoE =
+  "The Center of Excellence (CoE) at GHRCE, Nagpur, is an organizational entity within an institution or company that is dedicated to achieving excellence in a specific area or domain. It serves as a centralized hub for implementing best practices, conducting research, providing training, and fostering innovation within that particular field or discipline. CoE aims at “Concentrating existing expertise and resources in a discipline to attain and sustain world-class performance and value”. The CoE in AIML stands out with its industry-connected live projects mentored by experts from IIT, IIIT, and NIT for the projects international collaborations for research, and engagements with hospitals to solve medical challenges using AI.";
 
-export const CIS = "The IEEE Computational Intelligence Society (IEEE CIS) focuses on developing and applying computational paradigms, such as neural networks and genetic algorithms, for diverse applications. IEEE CIS SBC GHRC, a student branch chapter, aims to promote computational intelligence and societal advancement. It facilitates networking within the industry, fosters professional growth, and encourages members to give back to society. Members also have opportunities to develop software and leadership skills through technical workshops. Additionally, various workshops are organized to enhance students' skill sets.";
-
-
+export const CIS =
+  "The IEEE Computational Intelligence Society (IEEE CIS) focuses on developing and applying computational paradigms, such as neural networks and genetic algorithms, for diverse applications. IEEE CIS SBC GHRC, a student branch chapter, aims to promote computational intelligence and societal advancement. It facilitates networking within the industry, fosters professional growth, and encourages members to give back to society. Members also have opportunities to develop software and leadership skills through technical workshops. Additionally, various workshops are organized to enhance students' skill sets.";
 
 export const pricing = [
   {
@@ -233,14 +236,13 @@ export const pricing = [
 ];
 
 export const benefits = [
-
   {
     id: "0",
     title: "Ideathon",
     text: "Compete in Scan & Hunt, a thrilling game of intense scanning and hunting challenges, testing your observational skills, reflexes, and strategic thinking to uncover hidden QR codes.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: scannhunt,
+    imageUrl: ideathon,
     // light: true,
   },
   {
@@ -292,7 +294,7 @@ export const benefits = [
     text: "Dive into the intense challenge of Mini Shark Tank, facing off against industry sharks to test your mental ability, creative intelligence, and quick reflexes in an exciting business simulation.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: minisharktank,
     light: true,
   },
   {
@@ -301,7 +303,7 @@ export const benefits = [
     text: "Join the thrilling adventure of Catch The Web, where uncovering hidden hints on a mysterious website leads to an ultimate online quest of excitement and mystery.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: catchtheweb,
   },
   {
     id: "8",
@@ -309,7 +311,7 @@ export const benefits = [
     text: "Immerse yourself in 'ARTSY VOYAGE,' where storytelling meets AI creativity. Craft unique images and videos based on themes, weaving imaginative narratives in immersive worlds.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: av,
     light: true,
   },
   {
@@ -318,7 +320,7 @@ export const benefits = [
     text: "Engage in Pixel Puzzle, a visually captivating game challenging players to find specific objects hidden within pixelated scenes using various algorithms.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: pixelpuzzle,
   },
   {
     id: "10",
@@ -326,7 +328,7 @@ export const benefits = [
     text: "Allocate virtual money strategically in Strategic Stack, aiming to ensure the growth and success of various companies, demonstrating critical thinking and financial acumen to emerge as the top investor.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: ss,
     light: true,
   },
 ];
