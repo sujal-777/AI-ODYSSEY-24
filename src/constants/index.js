@@ -59,13 +59,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "SPEAKERS",
-    url: "#pricing",
+    title: "GLIMPSES",
+    url: "#how-to-use",
   },
   {
     id: "2",
-    title: "GLIMPSES",
-    url: "#how-to-use",
+    title: "SPEAKER",
+    url: "#pricing",
   },
   //
   // 	id: "3",
@@ -115,16 +115,16 @@ export let collabText =
 export let collabContent = [
   {
     id: "0",
-    title: "AI Odyssey is going to be held on April 5 and April 6, 2024",
+    title: "AI Odyssey is going to be held on April 5 and April 6, 2024.",
   },
   {
     id: "1",
-    title: "It is central India biggest AI-Summit Tech Event",
+    title: "It is central India biggest AI-Summit Tech Event.",
   },
   {
     id: "2",
     title:
-      "The event is open for all Branch students, working professionals, and enthusiasts",
+      "The event is open for all Branch students, working professionals, and AI enthusiasts.",
   },
 ];
 
@@ -195,7 +195,7 @@ export const CoE =
   "The Center of Excellence (CoE) at GHRCE, Nagpur, is an organizational entity within an institution or company that is dedicated to achieving excellence in a specific area or domain. It serves as a centralized hub for implementing best practices, conducting research, providing training, and fostering innovation within that particular field or discipline. CoE aims at “Concentrating existing expertise and resources in a discipline to attain and sustain world-class performance and value”. The CoE in AIML stands out with its industry-connected live projects mentored by experts from IIT, IIIT, and NIT for the projects international collaborations for research, and engagements with hospitals to solve medical challenges using AI.";
 
 export const CIS =
-  "The IEEE Computational Intelligence Society (IEEE CIS) focuses on developing and applying computational paradigms, such as neural networks and genetic algorithms, for diverse applications. IEEE CIS SBC GHRC, a student branch chapter, aims to promote computational intelligence and societal advancement. It facilitates networking within the industry, fosters professional growth, and encourages members to give back to society. Members also have opportunities to develop software and leadership skills through technical workshops. Additionally, various workshops are organized to enhance students' skill sets.";
+  "The IEEE Computational Intelligence Society (IEEE CIS) focuses on developing and applying computational paradigms, such as neural networks and genetic algorithms, for diverse applications. IEEE CIS SBC GHRCE, a student branch chapter, aims to promote computational intelligence and societal advancement. It facilitates networking within the industry, fosters professional growth, and encourages members to give back to society. Members also have opportunities to develop software and leadership skills through technical workshops. Additionally, various workshops are organized to enhance students' skill sets.";
 
 export const pricing = [
   {
@@ -235,11 +235,38 @@ export const pricing = [
   },
 ];
 
+export const evaluater= [
+  {
+    id: "0",
+    title: "Revealing Soon",
+    imageUrl: speaker,
+    contact: "https://linkedin.com/in/xyz",
+
+    features: [
+      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
+      "Eperiences",
+      "Location or something",
+    ],
+  },
+  {
+    id: "1",
+    title: "Revealing Soon",
+    imageUrl: speaker,
+    contact: "https://linkedin.com/in/xyz",
+
+    features: [
+      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
+      "Eperiences",
+      "Location or something",
+    ],
+  },
+]
+
 export const benefits = [
   {
     id: "0",
     title: "Ideathon",
-    text: "Compete in Scan & Hunt, a thrilling game of intense scanning and hunting challenges, testing your observational skills, reflexes, and strategic thinking to uncover hidden QR codes.",
+    text: "Welcome to Ideathon, where imagination meets Innovation! Participants select from provided problem statements and present their creative solutions on the day of the event.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: ideathon,
@@ -324,7 +351,7 @@ export const benefits = [
   },
   {
     id: "10",
-    title: "Stratergic Stack",
+    title: "Strategic Stack",
     text: "Allocate virtual money strategically in Strategic Stack, aiming to ensure the growth and success of various companies, demonstrating critical thinking and financial acumen to emerge as the top investor.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,

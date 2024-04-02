@@ -18,7 +18,7 @@ const Collaboration = () => {
             <h2 className="h2 mb-4 md:mb-8">
               About AI Odyssey
             </h2>
-            <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+            <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto text-justify">
               {collabText}
             </p>
 
@@ -92,41 +92,36 @@ const Collaboration = () => {
       </div>
 
       <div className="container pt-15 lg:flex gap-10">
-        <div className="max-w-full">
+        <div className="max-w-full text-center">
           <h6 className="h4 mb-4 mt-16 md:mb-8">
             AI Department
           </h6>
-          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto text-justify">
             {Aidept}
           </p>
           <LeftCurve />
         </div>
-        <div className="max-w-full">
+        <div className="max-w-full text-center">
           <h6 className="h4 mb-4 mt-16 md:mb-8">
             Centre of Excellence(AIML)
           </h6>
-          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto text-justify">
             {CoE}
           </p>
 
         </div>
       </div>
 
-      <div className="container lg:flex">
-        <div className="max-w-full">
+      <div className="container lg:flex justify-center">
+        <div className="max-w-full justify-center text-center">
           <h6 className="h4 mb-4 mt-16 md:mb-8">
             IEEE CIS SBC
           </h6>
-          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto">
+          <p className="body-2 max-w-[45rem] mb-8 text-n-4 md:mb-full lg:mb-full lg:w-full lg:mx-auto text-justify ">
             {CIS}
           </p>
-          <LeftCurve />
+  
         </div>
-        <div>
-          <img src="" alt="" />
-        </div>
-
-        <RightCurve />
 
       </div>
 

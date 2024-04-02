@@ -12,6 +12,9 @@ import Services from "./components/Services";
 // import useCountdown from "./components/useCountdown";
 import EventRoadmap from "./components/EventRoadmap";
 import Events from "./components/events";
+// import particle from "./components/particle";
+// import evaluater from "./components/evaluater";
+
 const App = () => {
 
   return (
@@ -23,10 +26,12 @@ const App = () => {
         <CountdownTimer />
         <Benefits />
         {/* <EventRoadmap /> */}
+        {/* <particle /> */}
         
         <Events />
         <Services />
         <Pricing />
+        {/* <evaluater /> */}
         {/* <Roadmap /> */}
         <Footer />
       </div>

@@ -31,7 +31,6 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with AI ODYSSEY"
           title="OUR SPEAKERS"
         />
 
@@ -52,7 +51,7 @@ const Pricing = () => {
         </div>
 
         <div className = "flex justify-center mt-10">
-          <Button className= "w-1/2">
+          <Button className= "w-1/2" href="https://keepthescore.com/board/hjzxkggwrdcrr/">
             Leaderboard
           </Button>
         </div>
