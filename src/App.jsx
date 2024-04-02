@@ -14,12 +14,15 @@ import EventRoadmap from "./components/EventRoadmap";
 import Events from "./components/events";
 // import particle from "./components/particle";
 // import evaluater from "./components/evaluater";
+import Pricing1 from "./components/pricing1";
+// import Particles from "./components";
 
 const App = () => {
 
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        {/* <Particles /> */}
         <Header />
         <Hero />
         <Collaboration />
@@ -31,6 +34,7 @@ const App = () => {
         <Events />
         <Services />
         <Pricing />
+        <Pricing1 />
         {/* <evaluater /> */}
         {/* <Roadmap /> */}
         <Footer />
