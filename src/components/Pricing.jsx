@@ -31,7 +31,7 @@ const Pricing = () => {
         </div>
 
         <Heading
-          title="OUR SPEAKERS"
+          title="OUR SPEAKERS AND EVALUATORS"
         />
 
         <div className="relative">

@@ -37,7 +37,6 @@ import {
   scannhunt,
   slack,
   sliders04,
-  speaker,
   technotiles,
   telegram,
   twitter,
@@ -49,6 +48,12 @@ import {
   ideathon,
   ss,
   catchtheweb,
+  speaker1,
+  speaker2,
+  speaker3,
+  speaker4,
+  speaker5,
+  speaker6,
 } from "../assets";
 
 export const navigation = [
@@ -85,12 +90,12 @@ export const heroIcons = [gameicon, chaticon, micicon, networkicon];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
+  GHRCE,
   cislogo,
   coelogo,
-  GHRCE,
-  RGi,
   GDGClogo,
   jarvislogo,
+  RGi,
 ];
 
 export const Communitypartner = [MLngp, DevArmy];
@@ -200,66 +205,79 @@ export const CIS =
 export const pricing = [
   {
     id: "0",
-    title: "Revealing soon",
-    imageUrl: speaker,
-    contact: "https://linkedin.com/in/xyz",
+    title: "Dr. Mukta Paliwal",
+    imageUrl: speaker1,
+    contact: "https://www.linkedin.com/in/dr-mukta-paliwal/",
 
     features: [
-      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
-      "Eperiences",
-      "Location or something",
+      "Assistant Director of Data Science at Novartis",
+      "PhD from IIT Bombay",
+      "AWS Machine Learning Specialty Certification",
     ],
   },
   {
     id: "1",
-    title: "Revealing soon",
-    imageUrl: speaker,
-    contact: "https://linkedin.com/in/xyz",
+    title: "ASHISH CHOKALE",
+    imageUrl: speaker4,
+    contact: "https://www.linkedin.com/in/ashish-chakole/",
     features: [
-      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
-      "Eperiences",
-      "Location or something like linkedin top voice ",
+      "Lead Technical Consultant at Perficient , Ex-Boston Scientific",
+      "Generative AI Expert",
+      "Alumni and Project Research Associate in IIT Hyderabad",
     ],
   },
   {
     id: "2",
-    title: "Revealing Soon",
-    imageUrl: speaker,
-    contact: "https://linkedin.com/in/xyz",
+    title: "Jaspal Singh",
+    imageUrl: speaker3,
+    contact: "https://www.linkedin.com/in/jaspal-bs-singh/",
 
     features: [
-      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
-      "Eperiences",
-      "Location or something",
+      "Senior AI Engineer at Tech Mahindra, Ex-Konverge.AI",
+      "LLM Expert and Dotnet Developer",
+      "Alumni of Oberoi Center of Excellence and Kavilguru Institute of Technology and Science",
     ],
   },
 ];
 
-export const evaluater= [
+export const pricing1= [
   {
     id: "0",
-    title: "Revealing Soon",
-    imageUrl: speaker,
-    contact: "https://linkedin.com/in/xyz",
+    title: "Wasudev Mishra",
+    imageUrl: speaker2,
+    contact: "https://www.linkedin.com/in/wasudev-mishra-618143a4/",
 
     features: [
-      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
-      "Eperiences",
-      "Location or something",
+      "Founder of Procohat,Building infivent and AnsilByte ",
+      "Ashoka Young Changemaker and 4x Entrepreneur",
+      "Expert in AI/ML and Buisness Intelligence",
     ],
   },
   {
     id: "1",
-    title: "Revealing Soon",
-    imageUrl: speaker,
-    contact: "https://linkedin.com/in/xyz",
+    title: "Ajinkya Sirsikar",
+    imageUrl: speaker5,
+    contact: "https://www.linkedin.com/in/ajinkyasirsikar/",
 
     features: [
-      "WOrked on @XYZ company, ex@zyx company , tedY speaker",
-      "Eperiences",
-      "Location or something",
+      "Buisness Intelligence Analytics Lead at AWS, EX - Sephora ",
+      "Buisness Intelligence Expert",
+      "Alumni of Unoversity of Cumberland",
     ],
   },
+  {
+    id: "2",
+    title: "Pravesh Nikhare",
+    imageUrl: speaker6,
+    contact: "https://www.linkedin.com/in/praveshnikhare/",
+
+    features: [
+      "Senior Configuration System Analyst at Delta Dental Ins.",
+      "Expert in Business Intelligence",
+      "Alumni of IIT Kharagpur and NSIT Delhi",
+    ],
+  },
+
 ]
 
 export const benefits = [
@@ -270,7 +288,8 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: ideathon,
-    // light: true,
+    light: true,
+    textUrl : ""
   },
   {
     id: "1",
@@ -279,7 +298,8 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: scannhunt,
-    // light: true,
+    light: true,
+    textUrl: "https://www.instagram.com/p/C5Sfq-MrqI6/?igsh=bnRqemVvOTd3Y2pi",
   },
   {
     id: "2",
@@ -288,7 +308,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: technotiles,
-    // light: true,
+    light: true,
   },
   {
     id: "3",
@@ -305,7 +325,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: imaginateai,
-    // light: true,
+    light: true,
   },
   {
     id: "5",

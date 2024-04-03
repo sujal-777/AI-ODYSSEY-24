@@ -86,7 +86,12 @@ import RGi from "./RGi.png";
 import cislogo from "./cislogo.png";
 import coelogo from "./coelogo.png";
 import jarvislogo from "./jarvislogo.png";
-import speaker from "./speaker.png";
+import speaker1 from "./speaker1.png";
+import speaker2 from "./speaker2.png";
+import speaker3 from "./speaker3.png";
+import speaker4 from "./speaker4.png";
+import speaker5 from "./speaker5.png";
+import speaker6 from "./speaker6.png";
 import MLngp from "./MLngp.png";
 import DevArmy from "./DevArmy.png";
 
@@ -187,7 +192,12 @@ export {
   slack,
   sliders04,
   smallSphere,
-  speaker,
+  speaker1,
+  speaker2,
+  speaker3,
+  speaker4,
+  speaker5,
+  speaker6,
   stars,
   technotiles,
   telegram,
