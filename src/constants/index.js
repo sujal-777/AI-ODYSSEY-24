@@ -318,6 +318,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: findthegltich,
+    light: true,
   },
   {
     id: "4",
@@ -335,6 +336,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: dataverse,
+    light: true
   },
   {
     id: "6",
@@ -352,6 +354,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: catchtheweb,
+    light: true,
   },
   {
     id: "8",
@@ -369,6 +372,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: pixelpuzzle,
+    light: true,
   },
   {
     id: "10",
