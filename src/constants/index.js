@@ -221,9 +221,10 @@ export const pricing = [
     imageUrl: speaker4,
     contact: "https://www.linkedin.com/in/ashish-chakole/",
     features: [
-      "Lead Technical Consultant at Perficient , Ex-Boston Scientific",
-      "Generative AI Expert",
-      "Alumni and Project Research Associate in IIT Hyderabad",
+      "Technical Architect - Power Platform and Generative Ai at Perficient | Ex-Boston Scientific",
+      "Generative AI | US Patent",
+      "Alumni of IIT Hyderabad and JHV",
+
     ],
   },
   {
@@ -234,7 +235,7 @@ export const pricing = [
 
     features: [
       "Senior AI Engineer at Tech Mahindra, Ex-Konverge.AI",
-      "LLM Expert and Dotnet Developer",
+      "LLM Expert",
       "Alumni of Oberoi Center of Excellence and Kavilguru Institute of Technology and Science",
     ],
   },
@@ -248,8 +249,8 @@ export const pricing1= [
     contact: "https://www.linkedin.com/in/wasudev-mishra-618143a4/",
 
     features: [
-      "Founder of Procohat,Building infivent and AnsilByte ",
-      "Ashoka Young Changemaker and 4x Entrepreneur",
+      "Founder of Procohat | Building infivent and AnsilByte ",
+      "Ashoka Young Changemaker | 4x Entrepreneur",
       "Expert in AI/ML and Buisness Intelligence",
     ],
   },
@@ -260,9 +261,9 @@ export const pricing1= [
     contact: "https://www.linkedin.com/in/ajinkyasirsikar/",
 
     features: [
-      "Buisness Intelligence Analytics Lead at AWS, EX - Sephora ",
-      "Buisness Intelligence Expert",
-      "Alumni of Unoversity of Cumberland",
+      "Buisness Intelligence Analytics Lead at AWS | EX - Sephora ",
+      "Expert in Buisness Intelligence",
+      "Alumni of University of Cumberland",
     ],
   },
   {
@@ -299,7 +300,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: scannhunt,
     light: true,
-    textUrl: "https://www.instagram.com/p/C5Sfq-MrqI6/?igsh=bnRqemVvOTd3Y2pi",
+    textUrl: "https://drive.google.com/file/d/18sc0y3f40pU5xOSMCEgf969vRozp-Ce8/view?usp=drivesdk",
   },
   {
     id: "2",

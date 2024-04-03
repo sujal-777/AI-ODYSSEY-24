@@ -46,7 +46,7 @@ const Benefits = () => {
 										alt={item.title}
 									/>
 									<p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" src={item.textUrl}>
-										Explore more
+										<a href={item.textUrl}>Explore more</a>
 									</p>
 									<Arrow />
 								</div>
