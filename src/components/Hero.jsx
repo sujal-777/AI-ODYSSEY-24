@@ -109,6 +109,7 @@ const Hero = () => {
 					</div>
 
 					<BackgroundCircles />
+					<BackgroundCircles />
 				</div>
 
 				<CompanyLogos className="relative z-10 mt-20 lg:block" />

@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import '../style.css'
 
 const CountdownTimer = () => {
-    const targetDate = new Date('April 5, 2024'); // Set the target date
+    const targetDate = new Date('10:00 April 5, 2024'); // Set the target date
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
