@@ -35,7 +35,7 @@ const Timeline_Day2 = () => {
                         // data-aos="fade-left"
                         data-aos="fade-up"
                     >
-                        <h3>Lunch</h3>
+                        <h3>Break</h3>
                         <p>
                         Break for lunchtime to unwind and recharge your energy before resuming your activities refreshed and revitalized.
                         </p>
