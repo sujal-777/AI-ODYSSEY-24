@@ -50,7 +50,7 @@ const Hero = () => {
 						Register Now
 					</Button>
 				<div className = "flex justify-center mt-5 mb-5 ">
-					<Button className= "w-1/2" href="https://keepthescore.com/board/hjzxkggwrdcrr/">
+					<Button className= "w-1/2" href="https://keepthescore.com/board/lkpgvdpxwzfzr/">
 						Leaderboard
 				    </Button>
                 </div>
