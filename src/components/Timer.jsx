@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import '../style.css'
 
 const CountdownTimer = () => {
-    const targetDate = new Date('April 5, 2024'); // Set the target date
+    const targetDate = new Date('00 00 00'); //  Set the target date
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
@@ -29,9 +29,9 @@ const CountdownTimer = () => {
         <div className='container relative z-2'>
             <Heading
                 className="md:max-w-md lg:max-w-2xl"
-                title="Event Starts In"
+                title="Event Registration is closed"
             />
-            <h2 className='neon flex justify-center'>{formattedTime}</h2>
+            {/* <h2 className='neon flex justify-center'>{formattedTime}</h2> */}
         </div>
     );
 };
